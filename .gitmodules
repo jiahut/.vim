@@ -79,3 +79,15 @@
 [submodule "bundle/webapi-vim"]
 	path = bundle/webapi-vim
 	url = git://github.com/mattn/webapi-vim.git
+[submodule "bundle/vim-ruby"]
+	path = bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "bundle/vim-tags"]
+	path = bundle/vim-tags
+	url = https://github.com/szw/vim-tags.git
+[submodule "bundle/vim-autocomplpop"]
+	path = bundle/vim-autocomplpop
+	url = https://github.com/othree/vim-autocomplpop.git
+[submodule "bundle/L9"]
+	path = bundle/L9
+	url = https://github.com/vim-scripts/L9.git

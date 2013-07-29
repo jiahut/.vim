@@ -30,7 +30,8 @@ map <Leader>m :make<CR>
 map <Leader>sh :sh<CR>
 
 " TagList
-map <silent> <F10> :TagbarToggle<CR>
+" map <silent> <F10> :TagbarToggle<CR>
+map <Leader>tt :TagbarToggle<cr>
 
 " 命令模式下方便移动光标
 if (!has ("gui_win32"))
@@ -72,6 +73,17 @@ nmap <F9> :call handy#ToggleSnipple()<CR>
 
 " 更方便的 <Esc>
 imap <silent> ii <esc>:w<cr>
+
+" Can be typed even faster than jj.
+imap jk <Esc>
+nmap jk <esc> 
+" 更好的推出 
+imap QQ <esc>:q<cr>
+nmap QQ <esc>:q<cr> 
+
+imap ;; <esc>:
+nmap ;; <esc>:
+
 
 " 打开一个临时的缓冲区随便记东西
 nmap <Leader>S :Scratch<cr>
