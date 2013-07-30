@@ -42,7 +42,7 @@ syntax on
 " 打开文件类型支持
 filetype plugin indent on
 " 递归向上查找 tags
-set tags=tags;
+set tags=.tags;
 " 修复 Terminal 下面中文双引号的问题
 set ambiwidth=double
 

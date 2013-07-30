@@ -75,8 +75,8 @@ nmap <F9> :call handy#ToggleSnipple()<CR>
 imap <silent> ii <esc>:w<cr>
 
 " Can be typed even faster than jj.
-imap jk <Esc>
-nmap jk <esc> 
+imap \\ <Esc>
+nmap \\ <esc> 
 " 更好的推出 
 imap QQ <esc>:q<cr>
 nmap QQ <esc>:q<cr> 
