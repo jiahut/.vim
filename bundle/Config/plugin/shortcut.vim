@@ -75,15 +75,10 @@ nmap <F9> :call handy#ToggleSnipple()<CR>
 imap <silent> ii <esc>:w<cr>
 
 " Can be typed even faster than jj.
-imap \\ <Esc>
-nmap \\ <esc> 
+imap jj <Esc>
 " 更好的推出 
-imap QQ <esc>:q<cr>
 nmap QQ <esc>:q<cr> 
-
-imap ;; <esc>:
-nmap ;; <esc>:
-
+nmap WW <esc>:w<cr>
 
 " 打开一个临时的缓冲区随便记东西
 nmap <Leader>S :Scratch<cr>
