@@ -77,8 +77,7 @@ imap <silent> ii <esc>:w<cr>
 " Can be typed even faster than jj.
 imap jj <Esc>
 " 更好的推出 
-nmap QQ <esc>:q<cr> 
-nmap WW <esc>:w<cr>
+nmap <c-q><c-q> <esc>:q<cr> 
 
 " 打开一个临时的缓冲区随便记东西
 nmap <Leader>S :Scratch<cr>
