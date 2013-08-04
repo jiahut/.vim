@@ -52,6 +52,8 @@ set incsearch
 " 永远显示状态栏
 set laststatus=2
 
+colorscheme evening
+
 " undo dir
 if v:version >= 703
   set undodir=$HOME/.vimundodir
@@ -73,3 +75,37 @@ autocmd BufWritePost *.js call handy#GenerateTag()
 
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*
 set wildignore+=*/*target/*,*/target*/*,*/node_modules/*
+
+" ######### 括号、引号、中括号等自动匹配 ######### start"
+
+:inoremap ( ()<ESC>i
+
+:inoremap ) <c-r>=ClosePair(')')<CR>
+
+:inoremap { {}<ESC>i
+
+:inoremap } <c-r>=ClosePair('}')<CR>
+
+:inoremap [ []<ESC>i
+
+:inoremap ] <c-r>=ClosePair(']')<CR>
+
+":inoremap < <><ESC>i
+	
+":inoremap > <c-r>=ClosePair('>')<CR>
+
+:inoremap " ""<ESC>i
+
+:inoremap ' ''<ESC>i
+
+:inoremap ` ``<ESC>i
+
+function ClosePair(char)
+	if getline('.')[col('.') - 1] == a:char
+		return "\<Right>"
+	else
+		return a:char
+	endif
+endf
+" ######### 括号、引号、中括号等自动匹配 #########  end"
+
