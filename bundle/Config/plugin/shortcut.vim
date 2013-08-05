@@ -72,13 +72,15 @@ endif
 nmap <F9> :call handy#ToggleSnipple()<CR>
 
 " 更方便的 <Esc>
-imap <silent> ii <esc>:w<cr>
+imap <silent> ii <Esc>:w<cr>
 
 " Can be typed even faster than jj.
 imap jj <Esc>
 " 更好的推出 
-nmap <c-q><c-q> <esc>:q<cr>
+nmap <Leader>q <esc>:wq<cr>
+nmap <Leader>Q <esc>:q!<cr>
 
+nmap <F2> :NERDTreeToggle<cr>
 " 打开一个临时的缓冲区随便记东西
 nmap <Leader>S :Scratch<cr>
 
