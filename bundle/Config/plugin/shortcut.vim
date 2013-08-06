@@ -79,7 +79,7 @@ imap jj <Esc>
 " 更好的推出 
 nmap <Leader>q <esc>:q<cr>
 nmap <Leader>Q <esc>:q!<cr>
-
+nmap <Leader>w <Esc>:w<cr>
 nmap <Leader>wq <esc>:wq<cr>
 
 nmap <F2> :NERDTreeToggle<cr>
