@@ -108,4 +108,3 @@ function ClosePair(char)
 	endif
 endf
 " ######### 括号、引号、中括号等自动匹配 #########  end"
-
