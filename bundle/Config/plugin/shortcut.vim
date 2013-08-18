@@ -80,7 +80,8 @@ imap jj <Esc>
 nmap <Leader>q <esc>:q<cr>
 nmap <Leader>Q <esc>:q!<cr>
 nmap <Leader>w <Esc>:w<cr>
-nmap <Leader>wq <esc>:wq<cr>
+
+nnoremap Q gq
 
 nmap <F2> :NERDTreeToggle<cr>
 " 打开一个临时的缓冲区随便记东西
