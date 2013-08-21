@@ -97,3 +97,6 @@
 [submodule "bundle/cscope.vim"]
 	path = bundle/cscope.vim
 	url = https://github.com/vim-scripts/cscope.vim.git
+[submodule "bundle/alt-ctags"]
+	path = bundle/alt-ctags
+	url = https://github.com/pbrisbin/alt-ctags.git
