@@ -78,7 +78,7 @@ imap <silent> ii <Esc>:w<cr>
 imap jj <Esc>
 " 更好的推出 
 nmap <Leader>q <esc>:q<cr>
-nmap <Leader>Q <esc>:q!<cr>
+nmap <Leader>Q <esc>:qa<cr>
 nmap <Leader>w <Esc>:w<cr>
 
 nnoremap Q gq
