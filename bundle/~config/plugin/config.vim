@@ -18,9 +18,9 @@ set fileformats=unix,dos,mac
 
 " 缩进设置
 set smarttab
-set tabstop=4
-set softtabstop=4
-set shiftwidth=4
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 
 " 高亮括号对

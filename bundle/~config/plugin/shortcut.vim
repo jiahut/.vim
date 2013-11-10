@@ -78,7 +78,7 @@ imap <silent> ii <Esc>:w<cr>
 imap jj <Esc>
 " 更好的推出 
 nmap <Leader>q <esc>:q<cr>
-nmap <Leader>Q <esc>:qa<cr>
+nmap <Leader>Q <esc>:q!<cr>
 nmap <Leader>w <Esc>:w<cr>
 
 nnoremap Q gq
@@ -125,3 +125,9 @@ nnoremap ? ms?
 "  In visual mode when you press * or # to search for the current selection
 vnoremap <silent> * :call handy#VisualSearch('f')<CR>
 vnoremap <silent> # :call handy#VisualSearch('b')<CR>
+
+" smart window manger
+nmap <C-w>1 :only<cr>
+nmap <C-w>2 :sp<cr>
+nmap <C-w>3 :vs<cr>
+nmap <C-w>q :qa<cr>
