@@ -111,3 +111,5 @@ endf
 " open NERDTree only when I start vim without file argumentsee NERDTree only
 " when I start vim without file arguments  
 autocmd VimEnter * if !argc() | NERDTree | endif
+" show number when startup 
+set number
