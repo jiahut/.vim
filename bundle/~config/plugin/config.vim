@@ -113,3 +113,11 @@ endf
 autocmd VimEnter * if !argc() | NERDTree | endif
 " show number when startup 
 set number
+
+" ######### 访问系统剪切版 start
+
+set clipboard=unnamed
+vmap <leader>y "+y
+vmap <leader>p "*p
+
+" ######### 访问系统剪切版 end
