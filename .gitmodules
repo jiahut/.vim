@@ -100,6 +100,6 @@
 [submodule "bundle/alt-ctags"]
 	path = bundle/alt-ctags
 	url = https://github.com/pbrisbin/alt-ctags.git
-[submodule "bundle/vim-coffee-script"]
-	path = bundle/vim-coffee-script
-	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "bundle/ag.vim"]
+	path = bundle/ag.vim
+	url = https://github.com/vim-scripts/ag.vim.git
