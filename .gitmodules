@@ -99,7 +99,7 @@
 	url = https://github.com/vim-scripts/cscope.vim.git
 [submodule "bundle/alt-ctags"]
 	path = bundle/alt-ctags
-	url = https://github.com/pbrisbin/alt-ctags.git
+	url = https://github.com/jiahut/alt-ctags.git
 [submodule "bundle/ag.vim"]
 	path = bundle/ag.vim
 	url = https://github.com/vim-scripts/ag.vim.git
