@@ -1,5 +1,7 @@
 " 色彩主题
-colo molokai
+" colo molokai
+colorscheme desertex
+
 if $TERM == "xterm-256color"
     set t_Co=256 " 256 色
 endif
@@ -51,8 +53,6 @@ set incsearch
 
 " 永远显示状态栏
 set laststatus=2
-
-" colorscheme evening
 
 " undo dir
 if v:version >= 703
