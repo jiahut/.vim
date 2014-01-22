@@ -1,6 +1,6 @@
 " 色彩主题
 " colo molokai
-colorscheme desertex
+colorscheme desertEx
 
 if $TERM == "xterm-256color"
     set t_Co=256 " 256 色
