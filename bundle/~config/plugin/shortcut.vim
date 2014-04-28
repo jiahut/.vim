@@ -81,8 +81,6 @@ nmap <Leader>q <esc>:q<cr>
 nmap <Leader>Q <esc>:q!<cr>
 nmap <Leader>w <Esc>:w<cr>
 
-nnoremap Q gq
-
 nmap <F2> :NERDTreeToggle<cr>
 " 打开一个临时的缓冲区随便记东西
 nmap <Leader>S :Scratch<cr>
@@ -130,4 +128,6 @@ vnoremap <silent> # :call handy#VisualSearch('b')<CR>
 nmap <C-w>1 :only<cr>
 nmap <C-w>2 :sp<cr>
 nmap <C-w>3 :vs<cr>
+nmap <C-w>x :q<cr>
 nmap <C-w>q :qa<cr>
+
