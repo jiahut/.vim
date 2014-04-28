@@ -131,3 +131,4 @@ nmap <C-w>3 :vs<cr>
 nmap <C-w>x :q<cr>
 nmap <C-w>q :qa<cr>
 
+map <Leader>sf :CtrlSF 
