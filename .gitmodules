@@ -106,3 +106,6 @@
 [submodule "bundle/ctrlsf.vim"]
 	path = bundle/ctrlsf.vim
 	url = https://github.com/dyng/ctrlsf.vim.git
+[submodule "bundle/accelerated-smooth-scroll"]
+	path = bundle/accelerated-smooth-scroll
+	url = https://github.com/yonchu/accelerated-smooth-scroll
