@@ -109,3 +109,6 @@
 [submodule "bundle/accelerated-smooth-scroll"]
 	path = bundle/accelerated-smooth-scroll
 	url = https://github.com/yonchu/accelerated-smooth-scroll
+[submodule "bundle/wildfire.vim"]
+	path = bundle/wildfire.vim
+	url = https://github.com/Shougo/wildfire.vim
