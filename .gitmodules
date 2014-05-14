@@ -106,3 +106,15 @@
 [submodule "bundle/vim-sdcv"]
 	path = bundle/vim-sdcv
 	url = https://github.com/chusiang/vim-sdcv
+[submodule "bundle/ctrlsf.vim"]
+	path = bundle/ctrlsf.vim
+	url = https://github.com/dyng/ctrlsf.vim.git
+[submodule "bundle/accelerated-smooth-scroll"]
+	path = bundle/accelerated-smooth-scroll
+	url = https://github.com/yonchu/accelerated-smooth-scroll
+[submodule "bundle/wildfire.vim"]
+	path = bundle/wildfire.vim
+	url = https://github.com/Shougo/wildfire.vim
+[submodule "bundle/vim-matrix-screensaver.git"]
+	path = bundle/vim-matrix-screensaver.git
+	url = https://github.com/uguu-org/vim-matrix-screensaver.git
