@@ -1,6 +1,6 @@
 " 色彩主题
 colo molokai
-" "colorscheme desertEx
+" colorscheme desertEx
 
 if $TERM == "xterm-256color"
     set t_Co=256 " 256 色
@@ -119,5 +119,6 @@ set number
 set clipboard=unnamed
 vmap <leader>y "+y
 vmap <leader>p "*p
+nmap <leader>s :call SearchWord()<CR>
 
 " ######### 访问系统剪切版 end

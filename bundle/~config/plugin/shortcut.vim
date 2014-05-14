@@ -127,6 +127,7 @@ vnoremap <silent> * :call handy#VisualSearch('f')<CR>
 vnoremap <silent> # :call handy#VisualSearch('b')<CR>
 
 " smart window manger
+nmap <C-w>0 :q<cr>
 nmap <C-w>1 :only<cr>
 nmap <C-w>2 :sp<cr>
 nmap <C-w>3 :vs<cr>
