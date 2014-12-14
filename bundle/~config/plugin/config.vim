@@ -20,10 +20,13 @@ set fileformats=unix,dos,mac
 
 " 缩进设置
 set smarttab
-set tabstop=2
-set softtabstop=2
-set shiftwidth=2
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
 set expandtab
+
+" 当鼠标距离上下位置时保留行数
+set scrolloff=3 
 
 " 高亮括号对
 set showmatch
