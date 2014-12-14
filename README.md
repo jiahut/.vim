@@ -14,14 +14,14 @@
 
 在 $HOME 目录下执行以下命令
 
-    git clone git://github.com/jiahut/vim.git ~/.vim
+    git clone git://github.com/jiahut/.vim.git ~/.vim
     cd ~/.vim && ./install.sh
 
 ### Windows
 
 在 %HOME% 目录下执行
 
-    git clone git://github.com/jiahut/vim.git %HOME%/.vim
+    git clone git://github.com/jiahut/.vim.git %HOME%/.vim
     cd %HOME%/.vim && install.bat
 
 ## 升级
