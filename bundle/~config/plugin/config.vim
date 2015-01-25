@@ -113,7 +113,7 @@ endf
 " ######### 括号、引号、中括号等自动匹配 #########  end"
 " open NERDTree only when I start vim without file argumentsee NERDTree only
 " when I start vim without file arguments  
-autocmd VimEnter * if !argc() | NERDTree | endif
+" autocmd VimEnter * if !argc() | NERDTree | endif
 " show number when startup 
 set number
 

@@ -82,6 +82,7 @@ nmap <Leader>Q <esc>:q!<cr>
 nmap <Leader>w <Esc>:w<cr>
 
 nmap <F2> :NERDTreeToggle<cr>
+nmap <Leader>t :NERDTreeToggle<cr>
 " 打开一个临时的缓冲区随便记东西
 nmap <Leader>S :Scratch<cr>
 
@@ -135,4 +136,4 @@ nmap <C-w>3 :vs<cr>
 " C-w o kill the others window"
 " C-w x switch postion of window
 
-map <Leader>sf :CtrlSF 
+map <Leader>a :CtrlSF 
