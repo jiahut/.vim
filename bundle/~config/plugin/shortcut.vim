@@ -130,6 +130,7 @@ nmap <C-w>0 :qa<cr>
 nmap <C-w>1 :only<cr>
 nmap <C-w>2 :sp<cr>
 nmap <C-w>3 :vs<cr>
+nmap <c-w>Q :q!<cr>
 
 " default:
 " C-w q kill current window
